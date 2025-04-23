@@ -45,7 +45,7 @@ Gemini API Key
 bash
 Copy
 Edit
-git clone https://github.com/your-repo/emailWriter.git
+git clone https://github.com/VinayWinde/Mail-writer-AI.git
 cd emailWriter
 2. Build the Docker Image
 bash
@@ -58,7 +58,7 @@ Copy
 Edit
 docker run -p 5643:5643 \
   -e GEMINI_URL="https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent" \
-  -e GEMINI_KEY="your_gemini_api_key" \
+  -e GEMINI_KEY="confidential"\
   gmail-ai-reply:1.0
 📎 Environment Variables
 
